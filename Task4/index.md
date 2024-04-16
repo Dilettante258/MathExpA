@@ -24,7 +24,7 @@ factor(f)
 ## 2
 
 求矩阵$A = \begin{pmatrix}
-1 & 2 \\\\
+1 & 2 \\\
 2 & a
 \end{pmatrix}$的逆和特征值.
 
@@ -45,9 +45,10 @@ e = eig(A)
 ### 3
 
 计算极限
-$$
-\lim_{x \rightarrow \infty}\left( 3^{x} + 9^{x} \right)^{\frac{1}{x}},\lim_{y \rightarrow 0^{+}}{\lim_{x \rightarrow 0^{+}}\frac{\ln{(2x + e^{- y})}}{\sqrt{x^{3} + y^{2}}}}，\\\ \lim_{x \rightarrow \infty}\frac{\ln{(1 + \frac{1}{x})}}{\arccot x},\lim_{x \rightarrow 0}\frac{1 - \sqrt{1 - x^{2}}}{e^{x} - \cos x}
-$$
+
+$
+\lim_{x \rightarrow \infty}\left( 3^{x} + 9^{x} \right)^{\frac{1}{x}},\lim_{y \rightarrow 0^{+}}{\lim_{x \rightarrow 0^{+}}\frac{\ln{(2x + e^{- y})}}{\sqrt{x^{3} + y^{2}}}}，\\\ \lim_{x \rightarrow \infty}\frac{\ln{(1 + \frac{1}{x})}}{arccot \, x},\lim_{x \rightarrow 0}\frac{1 - \sqrt{1 - x^{2}}}{e^{x} - \cos x}
+$
 
 代码：
 
@@ -94,11 +95,11 @@ s3=simplify(s3)
 >
 > s2 = $\frac{\pi^{2}}{6}$
 >
-> s3 = $\{\begin{matrix} atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < |2\, x + 1| \end{matrix}$
+> s3 = $\{\begin{matrix} atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < \|2\, x + 1\| \end{matrix}$
 
 ## 5
 
-求$\left. \ \frac{\partial^{3}}{\partial x^{2}\partial y}\sin\left( x^{2}yz \right) \right|_{x = 1,y = 1,z = 3}$.
+求$\left. \ \frac{\partial^{3}}{\partial x^{2}\partial y}\sin\left( x^{2}y z \right) \right\|_{x = 1,y = 1,z = 3}$.
 
 代码：
 
@@ -153,9 +154,9 @@ end
 
 计算下列不定积分并用diff验证:
 
-$$\int_{}^{}{e^{2x}\left( \tan x + 1 \right)^{2}}dx,\int_{}^{}\frac{e^{2y}}{e^{y} + 2}dy,\ \int_{}^{}\frac{x^{2}}{\sqrt{a^{2} - x^{2}}}dx,\ $$
+$\int_{}^{}{e^{2x}\left( \tan x + 1 \right)^{2}}dx,\int_{}^{}\frac{e^{2y}}{e^{y} + 2}dy,\ \int_{}^{}\frac{x^{2}}{\sqrt{a^{2} - x^{2}}}dx,\ $
 
-$$\int_{}^{}e^{x^{- 2}}dx,\ \ \int_{}^{}\frac{dx}{x(\sqrt{\ln x + a} + \sqrt{\ln x + b})}\ (a \neq b).\ $$
+$\int_{}^{}e^{x^{- 2}}dx,\ \ \int_{}^{}\frac{dx}{x(\sqrt{\ln x + a} + \sqrt{\ln x + b})}\ (a \neq b).\ $
 
 代码：
 
@@ -243,8 +244,8 @@ Ix=simplify(int(f,y,-x,x))
 
 (3)$5x^{23} - 6x^{7} + 8x^{6} - 5x^{2}$;
 
-(4) $\left\{ \begin{array}{r}
-a = 0.7\sin a + 0.2\cos b \\\
+(4) $\left\\{ \begin{array}{r}
+a = 0.7\sin a + 0.2\cos b \\\\
 b = 0.7\cos a - 0.2\sin b
 \end{array} \right.\ $
 
@@ -411,7 +412,7 @@ S = dsolve(eqn, conds)
 
 计算导数：$y = \frac{1 + \sin x}{1 - \cos x}$, $y = \begin{bmatrix}
 \arcsin x & \arccos x \\\
-\arctan x & \arccot x
+\arctan x & arccot \, x
 \end{bmatrix}$.
 
 代码：
@@ -431,7 +432,7 @@ y_prime_2 = diff(y2, x)
 
 > y_prime_1 = $- \frac{\cos(x)}{\cos(x) - 1} - \frac{\sin(x)\,\left( \sin(x) + 1 \right)}{\left( \cos(x) - 1 \right)^{2}}$
 >
-> y_prime_2 = $(\begin{matrix} \frac{1}{\sqrt{1 - x^{2}}} & - \frac{1}{\sqrt{1 - x^{2}}} \\\\frac{1}{x^{2} + 1} & - \frac{1}{x^{2} + 1}\end{matrix})$
+> y_prime_2 = $(\begin{matrix} \frac{1}{\sqrt{1 - x^{2}}} & - \frac{1}{\sqrt{1 - x^{2}}} \\\ \frac{1}{x^{2} + 1} & - \frac{1}{x^{2} + 1}\end{matrix})$
 
 ## 12
 
