@@ -47,8 +47,7 @@ fplot(f, [-2, 2])
 
 绘图结果：
 
-![](media/image1.png){width="2.5451410761154856in"
-height="1.9123709536307962in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4ac92f5d9.png" alt="image-20240416175409393" style="zoom:80%;" />
 
 \(2\) 椭圆$\frac{x^{2}}{4} + \frac{y^{2}}{9} = 1$;
 
@@ -59,10 +58,9 @@ r=-pi:0.1:pi;x=2*cos(r);y=3*sin(r);
 plot(x,y)
 ```
 
-![](media/image2.png){width="2.284057305336833in"
-height="1.5789479440069991in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4affd5ea9.png" alt="image-20240416175511591" style="zoom:80%;" />
 
-\(3\) 抛物面$z = x^{2} + y^{2}$, $|x| < 3,\ |y| < 3$;
+\(3\) 抛物面$z = x^{2} + y^{2}$, $\|x\| < 3,\ \|y\| < 3$;
 
 代码和输出：
 
@@ -73,10 +71,9 @@ z=x.^2+y.^2;
 surf(x,y,z);
 ```
 
-![](media/image3.png){width="2.721524496937883in"
-height="1.793860454943132in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b0d2e151.png" alt="image-20240416175524861" style="zoom:80%;" />
 
-\(4\) 曲面$z = x^{4} + 3x^{2} + y^{2} - 2x - 2y - 2x^{2}y + 6$, $|x| < 3$, $- 3 < y < 13$;
+\(4\) 曲面$z = x^{4} + 3x^{2} + y^{2} - 2x - 2y - 2x^{2}y + 6$, $\|x\| < 3$, $- 3 < y < 13$;
 
 代码和输出：
 
@@ -87,8 +84,7 @@ z=x.^4+3*x.^2+y.^2-2*x-2*y-2*x.^2.*y+6;
 surf(x,y,z);
 ```
 
-![](media/image4.png){width="2.5698742344706913in"
-height="1.7243055555555555in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b197dbdd.png" alt="image-20240416175537235" style="zoom:80%;" />
 
 \(5\) 空间曲线$x = \sin t,$ $y = \cos t$, $z = \cos{2t}$, $0 < t < 2\pi$;
 
@@ -100,8 +96,7 @@ x=sin(t);y=cos(t);z=cos(2*t);
 plot3(x,y,z)
 ```
 
-![](media/image5.png){width="2.4732742782152233in"
-height="1.4473687664041994in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b2652439.png" alt="image-20240416175550081" style="zoom:80%;" />
 
 \(6\)
 半球面$x = 2\sin\phi\cos\theta,\ y = 2\sin\phi\sin\theta,\ z = 2\cos\phi$, $0 \leq \theta \leq 360^{o}$,$0 \leq \phi \leq 90^{o}$;
@@ -115,8 +110,7 @@ x=2*sin(a).*cos(b);y=2*sin(a).*sin(b);z=2*cos(a);
 surf(x,y,z)
 ```
 
-![](media/image6.png){width="2.583947944006999in"
-height="1.7105271216097988in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b338bc20.png" alt="image-20240416175603288" style="zoom:80%;" />
 
 \(7\)
 三条曲线合成图$y_{1} = \sin x,\ y_{2} = \sin x\sin{10x},\ y_{3} = - \sin x$, $0 < x < \pi$.
@@ -134,13 +128,11 @@ plot(x,y3);
 hold off;
 ```
 
-![](media/image7.png){width="2.4517311898512686in"
-height="1.679825021872266in"}
+![image-20240416175618749](https://pic.wang1m.tech/uploads/2404/661e4b43152cc.png)
 
-**3**. 设$f(x) = \left\{ \begin{array}{r}
-x^{2},\ \ \ x \geq 2, \\
-x + 2,\ \ \ x < 2,
-\end{array} \right.\ $求$f(2)$, $f( - 2)$.
+## 3
+
+设$f(x) = \left\{ \begin{array}{r}x^{2},\ \ \ x \geq 2, \\ x + 2,\ \ \ x < 2,\end{array} \right.\ $求$f(2)$, $f( - 2)$.
 
 代码：
 
@@ -210,8 +202,7 @@ disp(sum)
 
 ## 6
 
-某种电子产品使用寿命t (2000)
-与产品等级s间的对应关系如下表，使用swith判断测试产品的等级。
+某种电子产品使用寿命t (2000)与产品等级s间的对应关系如下表，使用swith判断测试产品的等级。
 
 | 使用寿命t/h | t>=1500 | 1200<=t<=1500 | 1000<=t<=1200 | t<1000 |
 | ----------- | ------- | ------------- | ------------- | ------ |
@@ -310,7 +301,8 @@ end
 >
 > 学生 Student 46 的总分是 421，平均分是 84.20
 
-10\.
+## 10
+
 请编程计算$r = s^{2} + s^{4} + s^{6} + s^{8} + \cdots + s^{36} + s^{38}$,
 s=0.5.
 
@@ -346,8 +338,7 @@ ezsurf(f, [-10 10 -10 10])
 
 输出：
 
-![](media/image8.jpeg){width="2.9595384951881014in"
-height="2.071006124234471in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b69b62ae.png" alt="image-20240416175657384" style="zoom:67%;" />
 
 (2)代码：
 
@@ -362,8 +353,7 @@ Z = X.^3 + Y.^3;
 surf(X,Y,Z)
 ```
 
-![](media/image9.jpeg){width="2.8008606736657917in"
-height="1.8323698600174978in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b72a3d77.png" alt="image-20240416175706249" style="zoom:67%;" />
 
 12\. 绘制$z = \frac{\cos x\sin y}{y}$的完整光滑曲面。其中，x$\in$\[-2π,2π\],y$\in$\[-2π,2π\]。(不能使用ezsurf，ezmesh)。
 
@@ -386,11 +376,9 @@ str = 'Surface plot of $$ z = \frac{cos(x)sin(y)}{y} $$';
 title(str,'Interpreter','latex')
 ```
 
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b83717e4.png" alt="image-20240416175723080" style="zoom:80%;" />
 
-
-![](media/image10.jpeg)
-
-13\. 在 0≤x≤2π 区间内，分别用红色虚线和蓝色实线绘制曲线y1=2$e^{- 0.5x}$和y2=cos(4πx)，给图形加上图例"Y1","Y2",，在坐标为(0.8,1.5)处为y1 曲线加上文本说明"曲线 y1=2e\^{-0.5x})";在坐标为(2.5,1.1)处为曲线y2加上文本说明"曲线 y2=cos(4{\\pi}x))"; 对x、y轴加上标签"Variable X","Variable y".
+13\. 在 0≤x≤2π 区间内，分别用红色虚线和蓝色实线绘制曲线$y1=2e^{- 0.5x}$和y2=cos(4πx)，给图形加上图例"Y1","Y2",，在坐标为(0.8,1.5)处为y1 曲线加上文本说明"曲线 y1=2e\^{-0.5x})";在坐标为(2.5,1.1)处为曲线y2加上文本说明"曲线 y2=cos(4{\\pi}x))"; 对x、y轴加上标签"Variable X","Variable y".
 
 代码：
 
@@ -417,8 +405,7 @@ hold off
 
 输出：
 
-![](media/image11.jpeg){width="3.485550087489064in"
-height="2.615230752405949in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b90d439d.png" alt="image-20240416175736310" style="zoom:80%;" />
 
 14\. 在同一平面中的两个窗口分别画出心形线$\left\{ \begin{array}{r}
 x = a\left( 1 - \cos\theta \right)\cos\theta \\
@@ -448,6 +435,4 @@ title('马鞍面'); % 给图形添加标题
 
 输出：
 
-![](media/image12.jpeg){width="2.759570209973753in"
-height="2.069846894138233in"}![](media/image13.jpeg){width="2.770971128608924in"
-height="2.0783989501312337in"}
+<img src="https://pic.wang1m.tech/uploads/2404/661e4b9d8b015.png" alt="image-20240416175749315" style="zoom: 67%;" /><img src="https://pic.wang1m.tech/uploads/2404/661e4ba7702fc.png" alt="image-20240416175759049" style="zoom: 67%;" />

@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .markdown-body blockquote {
-    background-color: #64748b;
+    background-color: #f9f9f9;
     border-left: 5px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -16,11 +16,27 @@
 blockquote:before {
     color: #334155;
     content: '输出';
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 0.1em;
     margin-right: 0.25em;
 }
 
 blockquote p {
+    color: #64748b;
     margin-bottom: 8px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* 使图片不会超过其父元素的宽度 */
+    height: auto; /* 保持图片的原始宽高比 */
+    border-radius: 10px; /* 给图片添加圆角 */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 给图片添加阴影 */
+    transition: transform .2s; /* 动画过渡效果 */
+}
+
+img:hover {
+transform: scale(1.2); /* 鼠标悬停时放大图片 */
 }

@@ -43,7 +43,7 @@ a\\b: a右除b，即矩阵方程Xa=b的解
 
 用矩阵除法解下列线性方程组，判断解的意义，并用矩阵乘法验算:
 
-\(1\) $\begin{pmatrix}4 & 1 & - 1 \\3 & 2 & - 6 \\1 & - 5 & 3\end{pmatrix}\begin{pmatrix}x_{1} \\x_{2} \\x_{3}\end{pmatrix} = \begin{pmatrix}9 \\ - 2 \\1\end{pmatrix}$
+\(1\) $\begin{pmatrix}4 & 1 & - 1 \\\3 & 2 & - 6 \\\1 & - 5 & 3\end{pmatrix}\begin{pmatrix}x_{1} \\\x_{2} \\\x_{3}\end{pmatrix} = \begin{pmatrix}9 \\\ - 2 \\\1\end{pmatrix}$
 
 定义函数：
 
@@ -99,7 +99,7 @@ A*x
 >
 > ​	1.0000
 
-\(2\) $\begin{pmatrix}4 & - 3 & 3 \\3 & 2 & - 6 \\1 & - 5 & 3\end{pmatrix}\begin{pmatrix}x_{1} \\x_{2} \\x_{3}\end{pmatrix} = \begin{pmatrix} - 1 \\ - 2 \\1\end{pmatrix}$;
+\(2\) $\begin{pmatrix}4 & - 3 & 3 \\\3 & 2 & - 6 \\\1 & - 5 & 3\end{pmatrix}\begin{pmatrix}x_{1} \\\x_{2} \\\x_{3}\end{pmatrix} = \begin{pmatrix} - 1 \\\ - 2 \\\1\end{pmatrix}$;
 
 代码：
 
@@ -132,15 +132,15 @@ A*x
 > ​	1
 
 \(3\) $\begin{pmatrix}
-4 & 1 \\
-3 & 2 \\
+4 & 1 \\\
+3 & 2 \\\
 1 & - 5
 \end{pmatrix}\begin{pmatrix}
-x_{1} \\
+x_{1} \\\
 x_{2}
 \end{pmatrix} = \begin{pmatrix}
-1 \\
-1 \\
+1 \\\
+1 \\\
 1
 \end{pmatrix}$;
 
@@ -172,20 +172,20 @@ A*x
 >
 > 0.9404
 
-\(4\) $\begin{pmatrix}\begin{matrix}2 & 1 \\1 & 2 \\1 & 1\end{matrix} & \begin{matrix}1 & 1 \\
-1 & - 1 \\
+\(4\) $\begin{pmatrix}\begin{matrix}2 & 1 \\\1 & 2 \\\1 & 1\end{matrix} & \begin{matrix}1 & 1 \\\
+1 & - 1 \\\
 2 & 1
 \end{matrix}
 \end{pmatrix}\left( \begin{array}{r}
 \begin{matrix}
-x_{1} \\
-x_{2} \\
+x_{1} \\\
+x_{2} \\\
 x_{3}
-\end{matrix} \\
+\end{matrix} \\\
 x_{4}
 \end{array} \right) = \begin{pmatrix}
-1 \\
-2 \\
+1 \\\
+2 \\\
 3
 \end{pmatrix}$;
 
@@ -226,30 +226,30 @@ A*x
  求下列矩阵的行列式、逆、特征值和特征向量；
 
 (1) $\begin{pmatrix}
-4 & 1 & - 1 \\
-3 & 2 & - 6 \\
+4 & 1 & - 1 \\\
+3 & 2 & - 6 \\\
 1 & - 5 & 3
 \end{pmatrix}$
 
-(2) $\begin{pmatrix}1 & 1 & - 1 \\0 & 2 & - 1 \\- 1 & 2 & 0\end{pmatrix}$
+(2) $\begin{pmatrix}1 & 1 & - 1 \\\0 & 2 & - 1 \\\- 1 & 2 & 0\end{pmatrix}$
 
 (3) $\begin{pmatrix}
 \begin{matrix}
 \begin{matrix}
-5 & 7 \\
+5 & 7 \\\
 7 & 10
-\end{matrix} \\
+\end{matrix} \\\
 \begin{matrix}
-6 & 8 \\
+6 & 8 \\\
 5 & 7
 \end{matrix}
 \end{matrix} & \begin{matrix}
 \begin{matrix}
-6 & 5 \\
+6 & 5 \\\
 8 & 7
-\end{matrix} \\
+\end{matrix} \\\
 \begin{matrix}
-10 & 9 \\
+10 & 9 \\\
 9 & 10
 \end{matrix}
 \end{matrix}
