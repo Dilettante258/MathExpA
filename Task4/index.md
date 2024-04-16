@@ -46,8 +46,7 @@ e = eig(A)
 
 计算极限
 $$
-\lim_{x \rightarrow \infty}\left( 3^{x} + 9^{x} \right)^{\frac{1}{x}},\lim_{y \rightarrow 0^{+}}{\lim_{x \rightarrow 0^{+}}\frac{\ln{(2x + e^{- y})}}{\sqrt{x^{3} + y^{2}}}}，\\\
-\lim_{x \rightarrow \infty}\frac{\ln{(1 + \frac{1}{x})}}{{arccot}x},\lim_{x \rightarrow 0}\frac{1 - \sqrt{1 - x^{2}}}{e^{x} - \cos x}
+\lim_{x \rightarrow \infty}\left( 3^{x} + 9^{x} \right)^{\frac{1}{x}},\lim_{y \rightarrow 0^{+}}{\lim_{x \rightarrow 0^{+}}\frac{\ln{(2x + e^{- y})}}{\sqrt{x^{3} + y^{2}}}}，\\\ \lim_{x \rightarrow \infty}\frac{\ln{(1 + \frac{1}{x})}}{\arccot x},\lim_{x \rightarrow 0}\frac{1 - \sqrt{1 - x^{2}}}{e^{x} - \cos x}
 $$
 
 代码：
@@ -95,9 +94,7 @@ s3=simplify(s3)
 >
 > s2 = $\frac{\pi^{2}}{6}$
 >
-> s3 = $\{\begin{matrix}
-> atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < |2\, x + 1|
-> \end{matrix}$
+> s3 = $\{\begin{matrix} atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < |2\, x + 1| \end{matrix}$
 
 ## 5
 
@@ -228,7 +225,7 @@ intf(f5,x)
 ```matlab
 syms x y;
 f=(x-y)^3*sin(x+2*y);
-Ix=simplify(int(f,y,-x,x)
+Ix=simplify(int(f,y,-x,x))
 ```
 
 输出：
@@ -240,7 +237,7 @@ Ix=simplify(int(f,y,-x,x)
 
 用solve和vpasolve求解：
 
-\(1\) $x^{2} + x + 1$; 
+(1) $x^{2} + x + 1$; 
 
 (2) $3x^{5} - 4x^{3} + 2x - 1$; 
 
@@ -414,7 +411,7 @@ S = dsolve(eqn, conds)
 
 计算导数：$y = \frac{1 + \sin x}{1 - \cos x}$, $y = \begin{bmatrix}
 \arcsin x & \arccos x \\\
-\arctan x & {arccot}x
+\arctan x & \arccot x
 \end{bmatrix}$.
 
 代码：

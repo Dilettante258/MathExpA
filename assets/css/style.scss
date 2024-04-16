@@ -28,13 +28,12 @@ blockquote p {
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 8px auto;
     max-width: 100%; /* 使图片不会超过其父元素的宽度 */
     height: auto; /* 保持图片的原始宽高比 */
     border-radius: 10px; /* 给图片添加圆角 */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 给图片添加阴影 */
-    transition: transform .2s; /* 动画过渡效果 */
+    transition: transform .3s; /* 动画过渡效果 */
 }
 
 img:hover {

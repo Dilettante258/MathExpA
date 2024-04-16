@@ -132,7 +132,7 @@ hold off;
 
 ## 3
 
-设$f(x)=\begin{cases}x^2,&x\geq2,\\\x+2,&x<2,\end{cases}$求$f(2)$, $f( - 2)$.
+设$f(x)=\left\{\begin{matrix}x^2,&x\geq2,\\\ x+2,&x<2,\end{matrix}\right.$求$f(2)$, $f( - 2)$.
 
 代码：
 
@@ -321,7 +321,9 @@ r
 
 > r = 0.3333
 
-11\. 用曲面表示函数$z = x^{3} + y^{3}$
+## 11
+
+用曲面表示函数$z = x^{3} + y^{3}$
 
 \(1\) 使用 ezsurf 函数画。 (2)不使用ezsurf 函数画。
 
@@ -355,7 +357,9 @@ surf(X,Y,Z)
 
 <img src="https://pic.wang1m.tech/uploads/2404/661e4b72a3d77.png" alt="image-20240416175706249" style="zoom:67%;" />
 
-12\. 绘制$z = \frac{\cos x\sin y}{y}$的完整光滑曲面。其中，x$\in$\[-2π,2π\],y$\in$\[-2π,2π\]。(不能使用ezsurf，ezmesh)。
+## 12
+
+绘制$z = \frac{\cos x\sin y}{y}$的完整光滑曲面。其中，x$\in$\[-2π,2π\],y$\in$\[-2π,2π\]。(不能使用ezsurf，ezmesh)。
 
 代码：
 
@@ -378,7 +382,9 @@ title(str,'Interpreter','latex')
 
 <img src="https://pic.wang1m.tech/uploads/2404/661e4b83717e4.png" alt="image-20240416175723080" style="zoom:80%;" />
 
-13\. 在 0≤x≤2π 区间内，分别用红色虚线和蓝色实线绘制曲线$y1=2e^{- 0.5x}$和y2=cos(4πx)，给图形加上图例"Y1","Y2",，在坐标为(0.8,1.5)处为y1 曲线加上文本说明"曲线 y1=2e\^{-0.5x})";在坐标为(2.5,1.1)处为曲线y2加上文本说明"曲线 y2=cos(4{\\pi}x))"; 对x、y轴加上标签"Variable X","Variable y".
+## 13
+
+在 0≤x≤2π 区间内，分别用红色虚线和蓝色实线绘制曲线$y1=2e^{- 0.5x}$和y2=cos(4πx)，给图形加上图例"Y1","Y2",，在坐标为(0.8,1.5)处为y1 曲线加上文本说明"曲线 y1=2e\^{-0.5x})";在坐标为(2.5,1.1)处为曲线y2加上文本说明"曲线 y2=cos(4{\\pi}x))"; 对x、y轴加上标签"Variable X","Variable y".
 
 代码：
 
@@ -407,7 +413,12 @@ hold off
 
 <img src="https://pic.wang1m.tech/uploads/2404/661e4b90d439d.png" alt="image-20240416175736310" style="zoom:80%;" />
 
-14\. 在同一平面中的两个窗口分别画出心形线$\begin{cases}x=a(1-\cos\theta)\cos\theta\\y=a(1-\cos\theta)\sin\theta\end{cases}$和马鞍面$\frac{x^{2}}{a^{2}} - \frac{y^{2}}{b^{2}} = 2z$，其中，a取学号末尾数字，b取1到10之间的随机整数。
+## 14
+
+在同一平面中的两个窗口分别画出心形线$\left\{ \begin{array}{r}
+x = a\left( 1 - \cos\theta \right)\cos\theta \\\
+y = a\left( 1 - \cos\theta \right)\sin\theta
+\end{array} \right.\ $和马鞍面$\frac{x^{2}}{a^{2}} - \frac{y^{2}}{b^{2}} = 2z$，其中，a取学号末尾数字，b取1到10之间的随机整数。
 
 代码：
 
