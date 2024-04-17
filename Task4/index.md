@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 作业4 符号计算
+title: 作业4 符号计算(课本第七章)
 ---
 
-# 作业4 符号计算
+# 作业4 符号计算(课本第七章)
 
-## 1
+## 1(课本习题2)
 
 做因式分解$f(x) = x^{4} - 5x^{3} + 5x^{2} + 5x - 6$.
 
@@ -21,7 +21,7 @@ factor(f)
 
 > $(\begin{matrix} x - 1 & x - 2 & x - 3 & x + 1 \end{matrix})$
 
-## 2
+## 2(课本习题3)
 
 求矩阵$A = \begin{pmatrix}
 1 & 2 \\\
@@ -42,7 +42,7 @@ e = eig(A)
 > 该矩阵的逆(iA)为$(\begin{matrix} \frac{a}{a - 4} & - \frac{2}{a - 4} \\\ \frac{2}{a - 4} & \frac{1}{a - 4} \end{matrix})$，
 > 特征值(e)为$(\begin{array}{r} \frac{a}{2} - \frac{\sqrt{a^{2} - 2\, a + 17}}{2} + \frac{1}{2} \\\\ \frac{a}{2} + \frac{\sqrt{a^{2} - 2\, a + 17}}{2} + \frac{1}{2} \end{array})$。
 
-### 3
+### 3(课本习题4)
 
 计算极限
 
@@ -71,7 +71,7 @@ ans4 = limit((1-sqrt(1-x^2))/(exp(x)-cos(x)),x,inf)
 >
 > ans4 = 0
 
-## 4
+## 4(课本习题5)
 
 计算
 
@@ -97,7 +97,7 @@ s3=simplify(s3)
 >
 > s3 = $\{\begin{matrix} atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < \|2\, x + 1\| \end{matrix}$
 
-## 5
+## 5(课本习题6)
 
 求$\left. \ \frac{\partial^{3}}{\partial x^{2}\partial y}\sin\left( x^{2}y z \right) \right\|_{x = 1,y = 1,z = 3}$.
 
@@ -115,7 +115,9 @@ s=subs(s,{x,y,z},{1,1,3})
 
 > s = $log(x + \sqrt{x^{2} + 1})$
 
-6\. (Taylor展开)求下列函数在$x = 0$的Taylor幂级数展开式(n=8):
+## 6(课本习题7)
+
+(Taylor展开)求下列函数在$x = 0$的Taylor幂级数展开式(n=8):
 
 $$e^{x},\ \ \ln{(1 + x)},\ \ \sin x,\ \ \ln{(x + \sqrt{1 + x^{2}})},\ \ \frac{1}{x^{2} - 3x + 2}.$$
 
@@ -150,7 +152,7 @@ end
 > ans =
 > $\frac{511\, x^{8}}{512} + \frac{255\, x^{7}}{256} + \frac{127\, x^{6}}{128} + \frac{63\, x^{5}}{64} + \frac{31\, x^{4}}{32} + \frac{15\, x^{3}}{16} + \frac{7\, x^{2}}{8} + \frac{3\, x}{4} + \frac{1}{2}$
 
-## 7
+## 7(课本习题9)
 
 计算下列不定积分并用diff验证:
 
@@ -217,7 +219,7 @@ intf(f5,x)
 > fi =
 > $\sqrt{a + \log(x)}\,\left( \frac{2\, a}{3\, a - 3\, b} + \frac{2\,\log(x)}{3\, a - 3\, b} \right) - \sqrt{b + \log(x)}\,\left( \frac{2\, b}{3\, a - 3\, b} + \frac{2\,\log(x)}{3\, a - 3\, b} \right)$
 
-## 8
+## 8(课本习题10)
 
 计算积分$I(x) = \int_{- x}^{x}{(x - y)^{3}\sin{(x + 2y)}}dy$.
 
@@ -234,7 +236,7 @@ Ix=simplify(int(f,y,-x,x))
 > Ix =
 > $4\, x^{3}\, cos(x) - 3\, x^{2}\, sin(x) + \frac{3\,{cos(x)}^{2}\, sin(x)}{2} - \frac{3\, x\, cos(x)}{2}$
 
-## 9
+## 9(课本习题12)
 
 用solve和vpasolve求解：
 
@@ -244,10 +246,7 @@ Ix=simplify(int(f,y,-x,x))
 
 (3)$5x^{23} - 6x^{7} + 8x^{6} - 5x^{2}$;
 
-(4) $\left\\{ \begin{array}{r}
-a = 0.7\sin a + 0.2\cos b \\\\
-b = 0.7\cos a - 0.2\sin b
-\end{array} \right.\ $
+(4) $\left\\{ \begin{array}{r}a = 0.7\sin a + 0.2\cos b \\\\b = 0.7\cos a - 0.2\sin b\end{array} \right.\ $
 
 代码：
 
@@ -312,7 +311,7 @@ a = ans4_vpa.a, b = ans4_vpa.b
 > 0.50791971903684924497183722688768
 >
 
-## 10
+## 10(课本习题13)
 
 用dsolve求解：
 

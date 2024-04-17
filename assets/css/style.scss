@@ -29,13 +29,26 @@ blockquote p {
 img {
     display: block;
     margin: 8px auto;
-    max-width: 100%; /* 使图片不会超过其父元素的宽度 */
-    height: auto; /* 保持图片的原始宽高比 */
-    border-radius: 10px; /* 给图片添加圆角 */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 给图片添加阴影 */
-    transition: transform .3s; /* 动画过渡效果 */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform .3s;
+    z-index: 100;
 }
 
 img:hover {
-transform: scale(1.5); /* 鼠标悬停时放大图片 */
+    transform: scale(1.5);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: auto;
+    height: 300px; 
 }

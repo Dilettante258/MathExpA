@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 作业3 编程与作图
+title: 作业3 编程与作图(课本第二章)
 ---
 
-# 作业3 编程与作图
+# 作业3 编程与作图(课本第二章)
 
-## 1
+## 1(课本习题2)
 
 求满足$\sum_{n = 0}^{m}{\ln{(1 + n)}} > 100$的m最小值.
 
@@ -24,7 +24,7 @@ fprintf("最小m值是%d",n)
 
 > 最小m值是37
 
-## 2
+## 2(课本习题6)
 
 做出下列函数图像：
 
@@ -442,5 +442,7 @@ title('马鞍面'); % 给图形添加标题
 ```
 
 输出：
-
-<img src="https://pic.wang1m.tech/uploads/2404/661e4b9d8b015.png" alt="image-20240416175749315" style="zoom: 67%;" /><img src="https://pic.wang1m.tech/uploads/2404/661e4ba7702fc.png" alt="image-20240416175759049" style="zoom: 67%;" />
+<div class="image-container">
+    <img src="https://pic.wang1m.tech/uploads/2404/661e4b9d8b015.png" alt="image-20240416175749315" style="zoom: 67%;" />
+    <img src="https://pic.wang1m.tech/uploads/2404/661e4ba7702fc.png" alt="image-20240416175759049" style="zoom: 67%;" />
+</div>
