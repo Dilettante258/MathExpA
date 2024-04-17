@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 作业1 Matlab基础(课本第一章)
+title: 任务1 Matlab基础(课本第一章)
 ---
 
-# 作业1 Matlab基础(课本第一章)
+# 任务1 Matlab基础(课本第一章)
 
 ## 1(课本习题1)
 

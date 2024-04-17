@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 作业4 符号计算(课本第七章)
+title: 任务4 符号计算(课本第七章)
 ---
 
-# 作业4 符号计算(课本第七章)
+# 任务4 符号计算(课本第七章)
 
 ## 1(课本习题2)
 
@@ -95,7 +95,7 @@ s3=simplify(s3)
 >
 > s2 = $\frac{\pi^{2}}{6}$
 >
-> s3 = $\{\begin{matrix} atanh(\frac{1}{2\, x + 1}) & \text{ if  }1 < \|2\, x + 1\| \end{matrix}$
+> s3 = $atanh(\frac{1}{2x + 1}) \text{ if  }1 < \|2x + 1\|$
 
 ## 5(课本习题6)
 

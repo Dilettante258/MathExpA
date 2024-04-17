@@ -28,7 +28,7 @@ blockquote p {
 
 img {
     display: block;
-    margin: 8px auto;
+    margin: 2px auto;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -51,4 +51,5 @@ img:hover {
 .image-container img {
     width: auto;
     height: 300px; 
+    margin: 2px 2px;
 }
