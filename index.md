@@ -1,12 +1,15 @@
 ---
 layout: post
-title: 目录页
+title: 南京邮电大学数学实验A 目录页
 ---
 
-<h2>数学实验</h2>
+<h2>数学实验A</h2>
 
-<p>这个仓库存放了2024年南京邮电大学《数学实验A》的作业。上课参考的教材是《MATLAB数学实验》第三版(作者胡良剑 孙晓君)。</p>
-<p>主要是想供南邮的同学们参考，其他使用《MATLAB数学实验》的同学亦可使用此网站作为参考。</p>
+<p>本仓库收集了2024年我在学习《数学实验A》课程期间完成的作业。课程使用的教材为《MATLAB数学实验》第三版，作者为胡良剑和孙晓君教授。</p>
+<p>这个资源库的建立初衷是为了帮助南京邮电大学的同学们在学习过程中有一个参考的依据，减少一些无端浪费的时间。同时，其他使用《MATLAB数学实验》作为教材的同学们也可以利用这个平台来丰富自己的学习资源。</p>
+<p style="color: #f43f5e; font-weight: bold;">本数学实验作业仅为个人学习与研究之用，分享于此旨在促进学术交流和知识共享。我鼓励所有访问者以批判性思维和创新精神来参考本作业，但强烈反对任何形式的抄袭或未经允许的复制行为。
+请记住，独立完成作业是学习过程中不可或缺的一部分，它有助于培养解决问题的能力和深化对知识的理解。如果您在理解概念或解决类似问题时遇到困难，我建议与教师或同学讨论，以获得更深入的见解。</p>
+<p style="text-align: center;">让我们共同努力，维护一个诚实、尊重和鼓励创新的学术环境。<p>
 
 <h2>目录</h2>
 
@@ -20,6 +23,7 @@ title: 目录页
       <li><a href="./Task5">作业5 函数与方程(课本第四章)</a></li>
       <li><a href="./Task6">作业6 应用微积分(课本第五章)</a></li>
       <li><a href="./Task7">作业7 线性规划与非线性规划(课本第十章)</a></li>
+      <li><a href="./Task7">作业8 数据建模(课本第九章)</a></li>
     </ul>
     <a href="https://github.com/Dilettante258/MathExpA" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #6e5494; border: none; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease;">
       ⭐️Star this project on GitHub
