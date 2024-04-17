@@ -18,17 +18,17 @@ title: 目录页
       <li><a href="./Task3">任务3 编程与作图(课本第二章)</a></li>
       <li><a href="./Task4">任务4 符号计算(课本第七章)</a></li>
       <li><a href="./Task5">任务5 函数与方程(课本第四章)</a></li>
-      <li><a href="./Task5">任务6 应用微积分(课本第五章)</a></li>
-      <li><a href="./Task5">任务7 线性规划与非线性规划(课本第十章)</a></li>
+      <li><a href="./Task6">任务6 应用微积分(课本第五章)</a></li>
+      <li><a href="./Task6">任务7 线性规划与非线性规划(课本第十章)</a></li>
     </ul>
   </div>
   <div style="flex: 1; padding: 10px; text-align: center;">
-    <img src="https://pic.wang1m.tech/uploads/2404/661e5e8ae688f.png" alt="课本”" style="height:200px;width:auto;">
+    <img src="https://pic.wang1m.tech/uploads/2404/661e5e8ae688f.png" alt="课本”" style="height:200px;width:auto;" id="desktopContent">
   </div>
 </div>
 
 
 <a href="https://github.com/Dilettante258/MathExpA" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #6e5494; border: none; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease;">
-  ⭐️Star this project on GitHub
+  在GitHub上为我点个Star⭐️
 </a>
 

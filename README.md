@@ -6,8 +6,8 @@
 - [任务3 编程与作图(课本第二章)](https://wang1m.cc/MathExpA/Task3)
 - [任务4 符号计算(课本第七章)](https://wang1m.cc/MathExpA/Task4)
 - [任务5 函数与方程(课本第四章)](https://wang1m.cc/MathExpA/Task5)
-- [任务6 应用微积分(课本第五章)](https://wang1m.cc/MathExpA/Task5)
-- [任务7 线性规划与非线性规划(课本第十章)](https://wang1m.cc/MathExpA/Task5)
+- [任务6 应用微积分(课本第五章)](https://wang1m.cc/MathExpA/Task6)
+- [任务7 线性规划与非线性规划(课本第十章)](https://wang1m.cc/MathExpA/Task7)
 
 课本封面：
 

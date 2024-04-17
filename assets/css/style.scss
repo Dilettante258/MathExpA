@@ -24,6 +24,7 @@ blockquote:before {
 blockquote p {
     color: #64748b;
     margin-bottom: 8px;
+    white-space: pre-wrap;
 }
 
 img {
@@ -52,4 +53,11 @@ img:hover {
     width: auto;
     height: 300px; 
     margin: 2px 2px;
+}
+
+@media (max-width: 768px) {
+    #fitPhone {
+        flex-flow: column;
+        flex-wrap: wrap;
+    }
 }
