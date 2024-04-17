@@ -10,7 +10,7 @@ title: 目录页
 
 <h2>目录</h2>
 
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;" id="fitPhone">
   <div style="flex: 1; padding: 10px;">
     <ul>
       <li><a href="./Task1">任务1 Matlab基础(课本第一章)</a></li>
@@ -19,16 +19,11 @@ title: 目录页
       <li><a href="./Task4">任务4 符号计算(课本第七章)</a></li>
       <li><a href="./Task5">任务5 函数与方程(课本第四章)</a></li>
       <li><a href="./Task6">任务6 应用微积分(课本第五章)</a></li>
-      <li><a href="./Task6">任务7 线性规划与非线性规划(课本第十章)</a></li>
+      <li><a href="./Task7">任务7 线性规划与非线性规划(课本第十章)</a></li>
     </ul>
   </div>
   <div style="flex: 1; padding: 10px; text-align: center;">
-    <img src="https://pic.wang1m.tech/uploads/2404/661e5e8ae688f.png" alt="课本”" style="height:200px;width:auto;" id="desktopContent">
+    <img src="https://pic.wang1m.tech/uploads/2404/661e5e8ae688f.png" alt="课本”" style="height:250px;width:auto;">
   </div>
 </div>
-
-
-<a href="https://github.com/Dilettante258/MathExpA" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #6e5494; border: none; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease;">
-  在GitHub上为我点个Star⭐️
-</a>
 

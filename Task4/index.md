@@ -23,10 +23,7 @@ factor(f)
 
 ## 2(课本习题3)
 
-求矩阵$A = \begin{pmatrix}
-1 & 2 \\\
-2 & a
-\end{pmatrix}$的逆和特征值.
+求矩阵$A = \begin{pmatrix}1 & 2 \\\ 2 & a \end{pmatrix}$的逆和特征值.
 
 代码：
 
@@ -46,9 +43,9 @@ e = eig(A)
 
 计算极限
 
-$
+$$
 \lim_{x \rightarrow \infty}\left( 3^{x} + 9^{x} \right)^{\frac{1}{x}},\lim_{y \rightarrow 0^{+}}{\lim_{x \rightarrow 0^{+}}\frac{\ln{(2x + e^{- y})}}{\sqrt{x^{3} + y^{2}}}}，\\\ \lim_{x \rightarrow \infty}\frac{\ln{(1 + \frac{1}{x})}}{arccot \, x},\lim_{x \rightarrow 0}\frac{1 - \sqrt{1 - x^{2}}}{e^{x} - \cos x}
-$
+$$
 
 代码：
 
@@ -119,7 +116,8 @@ s=subs(s,{x,y,z},{1,1,3})
 
 (Taylor展开)求下列函数在$x = 0$的Taylor幂级数展开式(n=8):
 
-$$e^{x},\ \ \ln{(1 + x)},\ \ \sin x,\ \ \ln{(x + \sqrt{1 + x^{2}})},\ \ \frac{1}{x^{2} - 3x + 2}.$$
+$$e^{x}, \ln{(1 + x)}, \sin x,$$
+$$\ln{(x + \sqrt{1 + x^{2}})}, \frac{1}{x^{2} - 3x + 2}.$$
 
 输出：
 

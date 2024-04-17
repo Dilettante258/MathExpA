@@ -442,7 +442,7 @@ title('马鞍面'); % 给图形添加标题
 ```
 
 输出：
-<div class="image-container">
+<div class="image-container" id="fitPhone">
     <img src="https://pic.wang1m.tech/uploads/2404/661e4b9d8b015.png" alt="image-20240416175749315" style="zoom: 67%;" />
     <img src="https://pic.wang1m.tech/uploads/2404/661e4ba7702fc.png" alt="image-20240416175759049" style="zoom: 67%;" />
 </div>
