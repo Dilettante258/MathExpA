@@ -23,7 +23,7 @@ title: 南京邮电大学数学实验A 目录页
       <li><a href="./Task5">作业5 函数与方程(课本第四章)</a></li>
       <li><a href="./Task6">作业6 应用微积分(课本第五章)</a></li>
       <li><a href="./Task7">作业7 线性规划与非线性规划(课本第十章)</a></li>
-      <li><a href="./Task7">作业8 数据建模(课本第九章)</a></li>
+      <li><a href="./Task8">作业8 数据建模(课本第九章)</a></li>
     </ul>
     <a href="https://github.com/Dilettante258/MathExpA" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #6e5494; border: none; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease;">
       ⭐️Star this project on GitHub
