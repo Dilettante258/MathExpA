@@ -39,7 +39,7 @@ e = eig(A)
 > 该矩阵的逆(iA)为$(\begin{matrix} \frac{a}{a - 4} & - \frac{2}{a - 4} \\\ \frac{2}{a - 4} & \frac{1}{a - 4} \end{matrix})$，
 > 特征值(e)为$(\begin{array}{r} \frac{a}{2} - \frac{\sqrt{a^{2} - 2\, a + 17}}{2} + \frac{1}{2} \\\\ \frac{a}{2} + \frac{\sqrt{a^{2} - 2\, a + 17}}{2} + \frac{1}{2} \end{array})$。
 
-### 3(课本习题4)
+## 3(课本习题4)
 
 计算极限
 
